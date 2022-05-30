@@ -8,8 +8,9 @@ a {
 
 /* 画面上部の「人生を変えるフリマアプリ」帯部分 */
 .title-contents {
-  width: 100vw;
-  background-image: image-url('furima-header01.png');
+  width: 1440px;
+  height: 800px;
+  background-image: image-url('cook.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -233,7 +234,7 @@ a {
   font-size: 3vh;
   margin: 1vh 0;
   text-decoration: none;
-  color: #3ccace;
+  color: #ffd900;
   font-weight: bold;
 }
 
