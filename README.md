@@ -1,24 +1,45 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# アプリケーション名
+WorldCook
+# アプリケーション概要
+世界の料理を投稿し、その投稿に対してコメントすることができる。
+# URL※
+https://world-cook.herokuapp.com/
+# Basic認証
+* ID : jasper
+* PASS : 0317
+# テスト用アカウント
+* 投稿用アカウント
+*  メールアドレス: www@www.com
+*  パスワード: 11111a
+-----------------------------
+* コメント用アカウント
+* メールアドレス名: qqq@qqq.com
+* パスワード: 11111a
+# 利用方法
+* 料理投稿
+1. トップページ（一覧ページ）のヘッダーからユーザー新規登録を行う。
+2. トップページの右下に固定されてる投稿するボタンから、料理の内容（料理名、レシピ、材料、国名）を入力して投稿する。
+-------------------------------
+* コメント
+1. トップページ（一覧ページ）のヘッダーから、コメント用アカウントでログインする。（自分が投稿した物には、コメントできません。）
+2. トップページの料理をクリックして、料理の詳細を確認する。
+星の数とコメントを記述し、コメントするボタンを押す。
+# アプリケーションを作成した背景
+自分は料理好きなのとハーフということもあり、たまに自分の国の料理を調べることがあった。だがその国の代表する国の料理は出てくるものの、マイナーな料理は中々出てこないことが判明した。課題を分析した結果、ハーフの人口が増えてる事がわかった。同様の悩みを抱えてる方も多いと推測した。（2050年には日本の人口の、半分がハーフになると言われている。）そこでユーザー自身が、世界の料理を投稿するアプリを開発することによって、世界の料理の情報が集まるようにした。
+# 洗い出した要件
+# 実装した機能についての画像やGIFおよびその説明※
+# 実装予定の機能
+# データベース設計
+[![Image from Gyazo](https://i.gyazo.com/ce0abc2979abdab599f2f9dbed2ba79f.png)](https://gyazo.com/ce0abc2979abdab599f2f9dbed2ba79f)
+# 画面遷移図
+[![Image from Gyazo](https://i.gyazo.com/81c21bd382424ed506be27be9c1eae18.png)](https://gyazo.com/81c21bd382424ed506be27be9c1eae18)
+# 開発環境
+* フロントエンド
+* バックエンド
+* インフラ
+* テキストエディタ
+* タスク管理
+# ローカルでの動作方法※
+# 工夫したポイント※
