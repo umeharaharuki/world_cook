@@ -5,7 +5,7 @@ class CreateItems < ActiveRecord::Migration[6.0]
       t.text   :recipe,    null: false
       t.text   :material,  null: false
       t.string :country,   null: false
-      t.text   :memory,    null: false
+      t.text   :memory
       t.references :user,  null: false, foreign_key: true
       t.timestamps
     end

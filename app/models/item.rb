@@ -7,7 +7,6 @@ class Item < ApplicationRecord
     validates :recipe
     validates :material
     validates :country
-    validates :memory
     validates :image
   end
 end

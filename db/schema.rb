@@ -38,7 +38,7 @@ ActiveRecord::Schema.define(version: 2022_05_31_024850) do
     t.text "recipe", null: false
     t.text "material", null: false
     t.string "country", null: false
-    t.text "memory", null: false
+    t.text "memory"
     t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
