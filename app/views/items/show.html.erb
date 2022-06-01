@@ -61,7 +61,7 @@
     </div>
   </div>
   <%# /商品の概要 %>
-
+<% if user_signed_in? && current_user.id != @item.user_id %>
   <div class="comment-box">
      <%= form_with model: [@item, @comment], local: true do |f|%>
        <%= f.collection_select(:star_id, Star.all, :id, :name , {}, {class:"select-box", id:"item-category"}) %>
@@ -86,6 +86,21 @@
             </li>
             <% end %>
             </ul>
+            
+<% elsif user_signed_in? || current_user.id == @item.user_id %>
+            <ul class="comments_lists">
+          <%# 投稿に紐づくコメントを一覧する処理を記述する %>
+          <% @comments.each do |comment| %>
+          <li class="comments_list">
+          <%= comment.star.name %>
+            </li>
+            <li class="comments_list2">
+             <%= simple_format(comment.content) %>
+              <%= link_to comment.user.nickname, user_path(comment.user_id), class: :comment_user %>
+            </li>
+            <% end %>
+            </ul>
+            <% end %>
   <div class="links">
     <a href="#" class="change-item-btn">
       ＜ 前の商品
