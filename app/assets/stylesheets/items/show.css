@@ -207,3 +207,26 @@
   font-weight: bold;
   font-size: 23px;
 }
+
+.comments_list {
+  text-align: center;
+  background-color: #ffb340;
+  border-radius: 20px 20px 0 0;
+}
+
+.comments_lists {
+  height: calc(20vh - 20px);
+  overflow: scroll;
+  border-radius: 10px;
+  background-color: #ffd900;
+  margin-bottom: 30px;
+}
+
+.comments_list2 {
+  max-width: 100vh;
+  min-width: 30vh;
+  text-align: center;
+  background-color: #ffb340;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 10px;
+}
