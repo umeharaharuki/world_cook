@@ -1,22 +1,23 @@
-<div class="main">
-  <div class="inner">
-    <div class="user__wrapper">
+<%= render "shared/second-header"%>
+<div class="user_main">
+  <div class="inne">
+    <div class="user__wrappe">
       <h2 class="page-heading">
-        <%= @user.name%>さんの情報
+        <%= @user.nickname%>さんの情報
       </h2>
-      <table class="table">
+      <table class="tabl">
         <tbody>
           <tr>
-            <th class="table__col1">名前</th>
-            <td class="table__col2"><%= @user.nickname %></td>
+            <th class="tabl__col1">名前</th>
+            <td class="able__col2"><%= @user.nickname %></td>
           </tr>
           <tr>
-            <th class="table__col1">プロフィール</th>
-            <td class="table__col2"><%= @user.profile %></td>
+            <th class="tabl__col1">プロフィール</th>
+            <td class="able__col2"><%= simple_format(@user.profile) %></td>
           </tr>
         </tbody>
       </table>
-      <h2 class="page-heading">
+      <h2 class="page-headng">
         <%= @user.nickname%>さんのプロトタイプ
       </h2>
       <div class="user__card">
@@ -24,3 +25,4 @@
     </div>
   </div>
 </div>
+<%= render "shared/second-footer"%>
