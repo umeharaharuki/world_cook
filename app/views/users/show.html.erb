@@ -1,4 +1,4 @@
-<%= render "shared/second-header"%>
+<%= render "shared/header"%>
 <div class="user_main">
   <div class="inne">
     <div class="user__wrappe">
@@ -18,12 +18,10 @@
         </tbody>
       </table>
       <h2 class="page-headng">
-        <%= @user.nickname%>さんのプロトタイプ
+        <%= @user.nickname%>さんの料理
       </h2>
-      <div class="user__card">
-              <%= render partial: "shared/item", collection: @user.items %> 
-     </div>
+          <%= render partial: "shared/item", collection: @user.items %> 
     </div>
   </div>
 </div>
-<%= render "shared/second-footer"%>
+<%= render "shared/footer"%>

@@ -1,10 +1,25 @@
-<div class="card">
-  <%= link_to image_tag(item.image, class: :card__img ), item_path(item)%>
-  <div class="card__body">
-    <%= link_to item.cook_name, item_path(item), class: :card__title%>
-    <p class="card__summary">
-      <%= link_to item.country %>
-    </p>
-    <%= link_to item.user.nickname, user_path(item.user_id), class: :card__user %>
+<div class='user-contents'>
+    <ul class='item-lists'>
+     
+      <%# 商品のインスタンス変数になにか入っている場合、中身のすべてを展開できるようにしましょう %>
+      <li class='list'>
+        <%= link_to item_path(item) do %>
+        <div class='item-img-content'>
+          <%= image_tag item.image, class: "item-img" %>
+        </div>
+        <div class='item-info'>
+          <h3 class='item-name'>
+            <%= item.cook_name %>
+          </h3>
+          <div class='item-price'>
+            <span><%= item.country %></span>
+            <div class='star-btn'>
+              <%= image_tag "star.png", class:"star-icon" %>
+              <span class='star-count'>0</span>
+            </div>
+          </div>
+        </div>
+        <% end %>
+      </li>
+    </ul>
   </div>
-</div>

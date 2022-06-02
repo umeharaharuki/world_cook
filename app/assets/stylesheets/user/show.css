@@ -1,5 +1,11 @@
 .user_main {
   background-color: #ffd900;
+  font-family: "Source Sans Pro", Helvetica, Arial, "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", "YuGothic", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 500px;
 }
 
 .tabl__col1{
@@ -57,4 +63,12 @@
   color: #999;
   text-align: right;
   text-decoration: underline;
+}
+
+.user-contents {
+  background-color: #ffd900;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10vh 0;
 }
