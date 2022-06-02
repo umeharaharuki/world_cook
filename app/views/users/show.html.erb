@@ -1,26 +1,26 @@
-<%= render "shared/header"%>
+<%= render "shared/third-header"%>
 <div class="user_main">
   <div class="inne">
     <div class="user__wrappe">
-      <h2 class="page-heading">
-        <%= @user.nickname%>さんの情報
+      <h2 class="page-headng">
+        <%= @user.nickname%>さんのプロフィール
       </h2>
-      <table class="tabl">
-        <tbody>
-          <tr>
-            <th class="tabl__col1">名前</th>
-            <td class="able__col2"><%= @user.nickname %></td>
-          </tr>
-          <tr>
-            <th class="tabl__col1">プロフィール</th>
-            <td class="able__col2"><%= simple_format(@user.profile) %></td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="tabl">
+        
+          
+         
+            <div class="able__col2"><%= simple_format(@user.profile) %></div>
+          
+        
+      </div>
       <h2 class="page-headng">
         <%= @user.nickname%>さんの料理
       </h2>
+      <div class='user-contents'>
+      <ul class='user-lists'>
           <%= render partial: "shared/item", collection: @user.items %> 
+        </ul>
+        </div>
     </div>
   </div>
 </div>
