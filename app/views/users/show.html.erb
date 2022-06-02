@@ -21,6 +21,7 @@
         <%= @user.nickname%>さんのプロトタイプ
       </h2>
       <div class="user__card">
+              <%= render partial: "shared/item", collection: @user.items %> 
      </div>
     </div>
   </div>
