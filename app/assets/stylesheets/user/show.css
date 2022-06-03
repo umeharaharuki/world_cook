@@ -1,0 +1,71 @@
+.user_main {
+  background-color: #ffd900;
+  font-family: "Source Sans Pro", Helvetica, Arial, "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", "YuGothic", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 500px;
+}
+
+.able__col2{
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 16px 8px;
+  background: #fff;
+  font-size: 20px;
+  border-radius: 30px;
+}
+.user__wrappe{
+  min-height: calc(100vh - 161px);
+}
+.tabl{
+  border-collapse: collapse;
+  margin-bottom: 32px;
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.inne {
+  width: 1024px;
+  margin: 0 auto;
+}
+.page-headng {
+  font-size: 20px;
+  margin-bottom: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.user-contents {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10vh 0;
+  border-radius: 30px;
+}
+
+.user-lists {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user-lists>.list {
+  width: 37vh;
+  padding: 1vw;
+  background-color: #FFF;
+}
+
+.show-warn {
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px 0px;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}

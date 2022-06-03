@@ -28,7 +28,7 @@
       <tbody>
         <tr>
           <th class="detail-item">投稿者</th>
-          <td class="detail-value"><%= @item.user.nickname %></td>
+          <td class="detail-value"><%= link_to @item.user.nickname,user_path(@item.user_id) %></td>
         </tr>
         <tr>
           <th class="detail-item">国名</th>
@@ -74,6 +74,9 @@
       <%= f.submit "コメントする📝", class: :form__btn  %>
   </div>
   <% end %>
+  <p class="show-warn">
+        コメント一覧📝
+        </p>
   <ul class="comments_lists">
           <%# 投稿に紐づくコメントを一覧する処理を記述する %>
           <% @comments.each do |comment| %>
@@ -87,7 +90,12 @@
             <% end %>
             </ul>
             
-<% elsif user_signed_in? || current_user.id == @item.user_id %>
+<% else %>
+<p class="show-warn">
+        コメント一覧📝
+        <br>
+        ログインしてコメントしよう❗️
+      </p>
             <ul class="comments_lists">
           <%# 投稿に紐づくコメントを一覧する処理を記述する %>
           <% @comments.each do |comment| %>
