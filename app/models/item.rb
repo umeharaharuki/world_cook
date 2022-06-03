@@ -10,4 +10,12 @@ class Item < ApplicationRecord
     validates :country
     validates :image
   end
+
+  def self.search(search)
+    if search != ""
+      Item.where('text LIKE(?)', "%#{search}%")
+    else
+      Item.all
+    end
+  end
 end
