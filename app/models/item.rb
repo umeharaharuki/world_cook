@@ -13,7 +13,7 @@ class Item < ApplicationRecord
 
   def self.search(search)
     if search != ""
-      Item.where('text LIKE(?)', "%#{search}%")
+      Item.where('cook_name LIKE(?)', "%#{search}%")
     else
       Item.all
     end
