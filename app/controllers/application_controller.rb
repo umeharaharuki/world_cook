@@ -1,8 +1,15 @@
 class ApplicationController < ActionController::Base
   before_action :configure_permitted_parameters, if: :devise_controller?
   before_action :basic_auth
+  before_action :search
 
   private
+
+  def search
+    # params[:q]のqには検索フォームに入力した値が入る
+    @q = Item.ransack(params[:q])
+    @items = @q.result(distinct: true)
+  end
 
   def configure_permitted_parameters
     devise_parameter_sanitizer.permit(:sign_up,

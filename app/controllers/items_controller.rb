@@ -12,6 +12,7 @@ class ItemsController < ApplicationController
   def search
     # params[:q]のqには検索フォームに入力した値が入る
     @q = Item.ransack(params[:q])
+    @items = @q.result(distinct: true)
   end
 
   def new

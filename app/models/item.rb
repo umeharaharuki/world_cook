@@ -11,11 +11,4 @@ class Item < ApplicationRecord
     validates :image
   end
 
-  def self.search(search)
-    if search != ""
-      Item.where('cook_name LIKE(?)', "%#{search}%")
-    else
-      Item.all
-    end
-  end
 end
