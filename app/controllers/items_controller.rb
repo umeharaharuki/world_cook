@@ -2,9 +2,16 @@ class ItemsController < ApplicationController
   before_action :authenticate_user!, only: [:new, :edit, :destroy]
   before_action :set_item, only: [:show, :edit, :update, :destroy]
   before_action :move_to_index, only: [:edit, :destroy]
+  before_action :search
 
   def index
     @items = Item.includes(:user).order('created_at DESC')
+    @items = @q.result(distinct: true)
+  end
+
+  def search
+    # params[:q]のqには検索フォームに入力した値が入る
+    @q = Item.ransack(params[:q])
   end
 
   def new
@@ -38,10 +45,6 @@ class ItemsController < ApplicationController
 
   def destroy
     redirect_to root_path if @item.destroy
-  end
-
-  def search
-    @items = Item.search(params[:keyword])
   end
 
   private
