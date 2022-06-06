@@ -1,10 +1,10 @@
 <%= render "shared/header" %>
 <div class='main'>
-
   <div class='title-contents'>
   </div>
   <%# 商品一覧 %>
   <div class='item-contents'>
+  <h3 id="abc">ここがABCの位置</h3>
     <h2 class='title'>ピックアップカテゴリー</h2>
     <div class="subtitle" >
       新規投稿料理
@@ -57,8 +57,8 @@
       <%# //商品がある場合は表示されないようにしましょう %>
       <%# //商品がない場合は以下のダミー商品が表示されるようにしましょう %>
     </ul>
-  </div>
   <% end %>
+  </div>
   <%# /商品一覧 %>
 </div>
 <%= link_to(new_item_path, class: 'purchase-btn') do %>
