@@ -55,6 +55,7 @@
 <% if user_signed_in? && current_user.id != @item.user_id %>
   <div class="comment-box">
      <%= form_with model: [@item, @comment], local: true do |f|%>
+         <%= render 'shared/error_messages', model: f.object %>
        <%= f.collection_select(:star_id, Star.all, :id, :name , {}, {class:"select-box", id:"item-category"}) %>
        <%= f.text_area :content, id:"comment_content",class: :comment_text %>
       <p class="comment-warn">
@@ -106,13 +107,17 @@
             <% end %>
             </ul>
             <% end %>
-  <div class="links">
-    <a href="#" class="change-item-btn">
-      ＜ 前の商品
-    </a>
-    <a href="#" class="change-item-btn">
-      後ろの商品 ＞
-    </a>
+   <div class="links">
+      <div class="link">
+         <% if @item.previous.present? %>
+          <%= link_to "＜ 前の料理", item_path(@item.previous),  class: "change-item-btn"%>
+         <% end %>
+      </div>
+      <div class="link">
+         <% if @item.next.present? %>
+          <%= link_to "後ろの料理 ＞",item_path(@item.next), class: "change-item-btn" %>
+         <% end %>
+      </div>
   </div>
   <%# 詳細ページで表示されている商品のカテゴリー名を表示しましょう %>
   <a href="#" class="another-item"><%= "商品のカテゴリー名" %>をもっと見る</a>
