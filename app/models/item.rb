@@ -10,5 +10,4 @@ class Item < ApplicationRecord
     validates :country
     validates :image
   end
-
 end
