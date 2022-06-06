@@ -39,7 +39,8 @@
   border: 0;
   cursor: pointer;
   background-color: #f64902;
-  padding: 8px;
+  text-align: center;
+  color: #fff;
 }
 
 .search-icon {

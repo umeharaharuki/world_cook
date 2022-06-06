@@ -1,4 +1,4 @@
-<%= render "shared/third-header"%>
+<%= render "shared/header"%>
 <div class="user_main">
   <div class="inne">
     <div class="user__wrappe">
@@ -6,12 +6,7 @@
         <%= @user.nickname%>さんのプロフィール
       </h2>
       <div class="tabl">
-        
-          
-         
             <div class="able__col2"><%= simple_format(@user.profile) %></div>
-          
-        
       </div>
       <h2 class="page-headng">
         <%= @user.nickname%>さんの料理
