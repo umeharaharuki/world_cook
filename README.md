@@ -41,7 +41,7 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 # データベース設計
 [![Image from Gyazo](https://i.gyazo.com/95c1826a1affdf7c57c1a1fdad548ef0.png)](https://gyazo.com/95c1826a1affdf7c57c1a1fdad548ef0)
 # 画面遷移図
-[![Image from Gyazo](https://i.gyazo.com/84f7c21d7760446f63b4d6c98d5690ef.png)](https://gyazo.com/84f7c21d7760446f63b4d6c98d5690ef)
+[![Image from Gyazo](https://i.gyazo.com/9a872fdeca62f16779332d100a6a4a6b.png)](https://gyazo.com/9a872fdeca62f16779332d100a6a4a6b)
 # 開発環境
 * フロントエンド
 * バックエンド
@@ -49,5 +49,17 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 * テキストエディタ
 * タスク管理
 * GITHUB
+* S3
 # ローカルでの動作方法※
+以下のコマンドを順に実行
+* %git clone https://github.com/umeharaharuki/world_cook
+* %cd world_cook
+* %bundle install
+* %yarn install
 # 工夫したポイント※
+* 使いやすさ
+* 見た目のワールド感
+* トップページで、投稿一覧を押すとページ内遷移すること
+* 投稿詳細ページで、次の投稿詳細に移動できること
+* コメントの星部分を、アクティブハッシュ使ったこと
+* ファビコンを地球にしたこと
