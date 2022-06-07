@@ -1,11 +1,35 @@
-<%= render "shared/header" %>
+<header class='top-page-header'>
+  <div class='search-bar-contents'>
+    <%= link_to image_tag("world.jpeg", class:"furima-icon"), "/" %>
+    <%= search_form_for(@q, url: search_items_path) do |form| %>
+  <%= form.text_field :cook_name_or_recipe_or_material_or_country_or_memory_cont, placeholder: "キーワード検索", class: "input-box" %>
+  <%= form.submit "検索", class: "search-button" %>
+<% end %>
+  </div>
+  <% unless @items.present? %>
+  <p class='no-search'>検索結果はありません</p>
+<% end %>
+  <div class='nav'>
+    <div class='lists-left'>
+      <a href="#title">投稿一覧</a>
+      </div>
+    <ul class='lists-right'>
+      <% if user_signed_in? %>
+      <li><%= link_to current_user.nickname, user_path(current_user.id), class: "user-nickname" %></li>
+      <li><%= link_to 'ログアウト', destroy_user_session_path , method: :delete, class: "logout" %></li>
+      <% else %>
+      <li><%= link_to 'ログイン', new_user_session_path , class: "login" %></li>
+      <li><%= link_to '新規登録', new_user_registration_path , class: "sign-up" %></li>
+      <% end %>
+    </ul>
+  </div>
+</header>
 <div class='main'>
   <div class='title-contents'>
   </div>
   <%# 商品一覧 %>
   <div class='item-contents'>
-  <h3 id="abc">ここがABCの位置</h3>
-    <h2 class='title'>ピックアップカテゴリー</h2>
+    <h2 class='title', id='title'>ピックアップカテゴリー</h2>
     <div class="subtitle" >
       新規投稿料理
     </div>
