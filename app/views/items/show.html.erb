@@ -9,7 +9,7 @@
       <%= image_tag @item.image ,class:"item-box-img" %>
     </div>
 <% if user_signed_in? && current_user.id == @item.user_id %>
-    <%= link_to "商品の編集", edit_item_path(@item.id), method: :get, class: "item-red-btn" %>
+    <%= link_to "商品の編集", edit_item_path(@item.id), method: :get, class: "item-btn" %>
     <p class="or-text">or</p>
     <%= link_to "削除", item_path(@item.id), method: :delete, class:"item-destroy" %>
 <% end %>
@@ -20,7 +20,7 @@
       <tbody>
         <tr>
           <th class="detail-item">投稿者</th>
-          <td class="detail-value"><%= link_to @item.user.nickname,user_path(@item.user_id) %></td>
+          <td class="detail-value-name"><%= link_to @item.user.nickname,user_path(@item.user_id) %></td>
         </tr>
         <tr>
           <th class="detail-item">国名</th>
@@ -55,6 +55,7 @@
 <% if user_signed_in? && current_user.id != @item.user_id %>
   <div class="comment-box">
      <%= form_with model: [@item, @comment], local: true do |f|%>
+         <%= render 'shared/error_messages', model: f.object %>
        <%= f.collection_select(:star_id, Star.all, :id, :name , {}, {class:"select-box", id:"item-category"}) %>
        <%= f.text_area :content, id:"comment_content",class: :comment_text %>
       <p class="comment-warn">
@@ -106,17 +107,18 @@
             <% end %>
             </ul>
             <% end %>
-  <div class="links">
-    <a href="#" class="change-item-btn">
-      ＜ 前の商品
-    </a>
-    <a href="#" class="change-item-btn">
-      後ろの商品 ＞
-    </a>
+   <div class="links">
+      <div>
+         <% if @item.previous.present? %>
+          <%= link_to "＜ 前の料理", item_path(@item.previous),  class: "change-item-btn"%>
+         <% end %>
+      </div>
+      <div>
+         <% if @item.next.present? %>
+          <%= link_to "後ろの料理 ＞",item_path(@item.next), class: "change-item-btn" %>
+         <% end %>
+      </div>
   </div>
-  <%# 詳細ページで表示されている商品のカテゴリー名を表示しましょう %>
-  <a href="#" class="another-item"><%= "商品のカテゴリー名" %>をもっと見る</a>
-  <%# //詳細ページで表示されている商品のカテゴリー名を表示しましょう %>
 </div>
 
 <%= render "shared/footer" %>

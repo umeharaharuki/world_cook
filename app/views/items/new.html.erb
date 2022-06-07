@@ -4,7 +4,7 @@
 
   </header>
   <div class="items-sell-main">
-    <h2 class="items-sell-title">商品の情報を入力</h2>
+    <h2 class="items-sell-title">料理の情報を入力</h2>
 <%= form_with model: @item, local: true do |f| %>
     <%# インスタンスを渡して、エラー発生時にメッセージが表示されるようにしましょう。%>
     <%= render 'shared/error_messages', model: f.object %>
@@ -31,32 +31,41 @@
         料理名
         <span class="indispensable">必須</span>
       </div>
-      <%= f.text_area :cook_name, class:"items-text", id:"item-name", placeholder:"商品名（必須 40文字まで)", maxlength:"40" %>
+      <%= f.text_area :cook_name, class:"items-text", id:"item-name", placeholder:"料理名（必須 40文字まで)", maxlength:"40" %>
       <div class="weight-bold-text">
         国名
         <span class="indispensable">必須</span>
       </div>
-      <%= f.text_area :country, class:"items-text", id:"item-name", placeholder:"商品名（必須 40文字まで)", maxlength:"40" %>
+      <%= f.text_area :country, class:"items-text", id:"item-name", placeholder:"国名（必須 40文字まで)", maxlength:"40" %>
       <div class="items-explain">
         <div class="weight-bold-text">
           食材
           <span class="indispensable">必須</span>
         </div>
-        <%= f.text_area :material, class:"items-text", id:"item-info", placeholder:"商品の説明（必須 1,000文字まで）（色、素材、重さ、定価、注意点など）例）2010年頃に1万円で購入したジャケットです。ライトグレーで傷はありません。あわせやすいのでおすすめです。" ,rows:"7" ,maxlength:"1000" %>
+        <%= f.text_area :material, class:"items-text", id:"item-info", placeholder:"食材（必須 1,0000文字まで）
+例）二人分
+豚肉         350g
+にんじん      1本
+大根         n程度
+ねぎ         4本
+醤油         大さじ３
+塩 こしょう   少々
+" ,rows:"7" ,maxlength:"10000" %>
       </div>
       <div class="items-explain">
         <div class="weight-bold-text">
           レシピ
           <span class="indispensable">必須</span>
         </div>
-        <%= f.text_area :recipe, class:"items-text", id:"item-info", placeholder:"商品の説明（必須 1,000文字まで）（色、素材、重さ、定価、注意点など）例）2010年頃に1万円で購入したジャケットです。ライトグレーで傷はありません。あわせやすいのでおすすめです。" ,rows:"7" ,maxlength:"1000" %>
+        <%= f.text_area :recipe, class:"items-text", id:"item-info", placeholder:"レシピ（必須 1,0000文字まで）" ,rows:"7" ,maxlength:"10000" %>
       </div>
       <div class="items-explain">
         <div class="weight-bold-text">
           レシピの思い出
           <span class="indispensable">任意</span>
         </div>
-        <%= f.text_area :memory, class:"items-text", id:"item-info", placeholder:"商品の説明（必須 1,000文字まで）（色、素材、重さ、定価、注意点など）例）2010年頃に1万円で購入したジャケットです。ライトグレーで傷はありません。あわせやすいのでおすすめです。" ,rows:"7" ,maxlength:"1000" %>
+        <%= f.text_area :memory, class:"items-text", id:"item-info", placeholder:"レシピの思い出（任意 1,000文字まで）
+例）子供の頃にお母さんがよく作ってくれました。これを作ると故郷を思い出します。" ,rows:"7" ,maxlength:"1000" %>
       </div>
     </div>
    

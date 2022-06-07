@@ -21,14 +21,14 @@
   margin-right: 10vw;
 }
 
-.search-form {
-  width: 65vw;
+.item_search {
+  width: 80vw;
   height: 5vh;
   display: flex;
   margin-bottom: 5px;
 }
 
-.search-form>.input-box {
+.item_search>.input-box {
   width: 100%;
   height: 5vh;
   padding-left: 10px;
@@ -41,6 +41,7 @@
   background-color: #f64902;
   text-align: center;
   color: #fff;
+  border-radius: 5px;
 }
 
 .search-icon {
@@ -59,7 +60,6 @@
 .lists-left {
   display: flex;
   min-width: 200px;
-
 }
 
 .category-list {
@@ -103,4 +103,11 @@
 .sign-up {
   text-decoration: none;
   color: #333333;
+}
+
+.no-search {
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  color: #f64902;
 }
