@@ -39,8 +39,10 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 # 投稿機能
 [![Image from Gyazo](https://i.gyazo.com/7e132d138142a24665172595fd9685b8.gif)](https://gyazo.com/7e132d138142a24665172595fd9685b8)
 * 入力に問題がなければ、投稿される。
+
 [![Image from Gyazo](https://i.gyazo.com/c148be8be44769a335e66cee87720189.gif)](https://gyazo.com/c148be8be44769a335e66cee87720189)
 * 入力に問題があると、エラー分が表示される。
+
 # コメント機能
 [![Image from Gyazo](https://i.gyazo.com/c88155fa3303c4367190855a1fc16469.gif)](https://gyazo.com/c88155fa3303c4367190855a1fc16469)
 * コメントが存在すれば、コメント一覧が表示される。
