@@ -31,11 +31,11 @@
           <td class="detail-value"><%= simple_format(@item.material) %></td>
         </tr>
         <tr>
-          <th class="detail-item">レシピ</th>
+          <th class="detail-item">作り方</th>
           <td class="detail-value"><%= simple_format(@item.recipe) %></td>
         </tr>
         <tr>
-          <th class="detail-item">レシピの思い出</th>
+          <th class="detail-item">思い出</th>
           <td class="detail-value"><%= simple_format(@item.memory) %></td>
         </tr>
       </tbody>
@@ -115,7 +115,7 @@
       </div>
       <div>
          <% if @item.next.present? %>
-          <%= link_to "後ろの料理 ＞",item_path(@item.next), class: "change-item-btn" %>
+          <%= link_to "次の料理 ＞",item_path(@item.next), class: "change-item-btn" %>
          <% end %>
       </div>
   </div>

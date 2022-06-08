@@ -54,23 +54,26 @@
       </div>
       <div class="items-explain">
         <div class="weight-bold-text">
-          レシピ
+          作り方
           <span class="indispensable">必須</span>
         </div>
-        <%= f.text_area :recipe, class:"items-text", id:"item-info", placeholder:"レシピ（必須 1,0000文字まで）" ,rows:"7" ,maxlength:"10000" %>
+        <%= f.text_area :recipe, class:"items-text", id:"item-info", placeholder:"作り方（必須 1,0000文字まで）" ,rows:"7" ,maxlength:"10000" %>
       </div>
       <div class="items-explain">
         <div class="weight-bold-text">
-          レシピの思い出
+          思い出
           <span class="indispensable">任意</span>
         </div>
-        <%= f.text_area :memory, class:"items-text", id:"item-info", placeholder:"レシピの思い出（任意 1,000文字まで）
+        <%= f.text_area :memory, class:"items-text", id:"item-info", placeholder:"思い出（任意 1,000文字まで）
 例）子供の頃にお母さんがよく作ってくれました。これを作ると故郷を思い出します。" ,rows:"7" ,maxlength:"1000" %>
       </div>
     </div>
    
     <%# 注意書き %>
     <div class="caution">
+    <p class="sentence">
+        料理以外の投稿はご遠慮ください。
+      </p>
       <p class="sentence">
         <a href="#">禁止されている行為</a>
         を必ずご確認ください。
