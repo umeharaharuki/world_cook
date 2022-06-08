@@ -154,3 +154,5 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 * 投稿詳細ページで、次の投稿詳細に移動できること
 * コメントの星部分を、アクティブハッシュ使ったこと
 * ファビコンを地球にしたこと
+
+[![Image from Gyazo](https://i.gyazo.com/704bd2fada70f757b12eaf0ca53051c4.gif)](https://gyazo.com/704bd2fada70f757b12eaf0ca53051c4)
