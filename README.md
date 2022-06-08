@@ -155,5 +155,4 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 * コメントの星部分を、アクティブハッシュ使ったこと
 * ファビコンを地球にしたこと
 
-
-[![Image from Gyazo](https://i.gyazo.com/1b35b25856542b442f004ed159e9826e.gif)](https://gyazo.com/1b35b25856542b442f004ed159e9826e)
+[![Image from Gyazo](https://i.gyazo.com/7539e6f98197cd9e581d8d30e9806565.gif)](https://gyazo.com/7539e6f98197cd9e581d8d30e9806565)
