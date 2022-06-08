@@ -53,6 +53,7 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 
 # 投稿機能
 [![Image from Gyazo](https://i.gyazo.com/d1115c5cab6269c4ce1920287bd32d8b.gif)](https://gyazo.com/d1115c5cab6269c4ce1920287bd32d8b)
+* 入力に問題がなければ、投稿できる
 
 [![Image from Gyazo](https://i.gyazo.com/c148be8be44769a335e66cee87720189.gif)](https://gyazo.com/c148be8be44769a335e66cee87720189)
 
@@ -89,6 +90,8 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 [![Image from Gyazo](https://i.gyazo.com/6d002673825e2e0954118424ebaf2d6c.gif)](https://gyazo.com/6d002673825e2e0954118424ebaf2d6c)
 
 * 複数投稿があること前提で、料理詳細ページにて、次の料理を押すと、次の投稿が見れる。
+
+[![Image from Gyazo](https://i.gyazo.com/55502bce66d9bf7b897b84a50c75d3cb.gif)](https://gyazo.com/55502bce66d9bf7b897b84a50c75d3cb)
 
 # 実装予定の機能
 
