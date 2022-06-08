@@ -76,13 +76,10 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 * 入力に問題があった場合、コメントは保存されず、エラー分が表示される。
 
 # 検索機能
-
+[![Image from Gyazo](https://i.gyazo.com/b6d0b616c406abba0628f7739ac8053a.jpg)](https://gyazo.com/b6d0b616c406abba0628f7739ac8053a)
+* 
 
 # その他
-
-[![Image from Gyazo](https://i.gyazo.com/7539e6f98197cd9e581d8d30e9806565.gif)](https://gyazo.com/7539e6f98197cd9e581d8d30e9806565)
-
-* トップページのヘッダーにある、投稿一覧を押すと、ページ内遷移をする。
 
 [![Image from Gyazo](https://i.gyazo.com/6d002673825e2e0954118424ebaf2d6c.gif)](https://gyazo.com/6d002673825e2e0954118424ebaf2d6c)
 
@@ -117,7 +114,7 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 * %yarn install
 
 # 工夫したポイント※
-* 3つアプリを作成し、完成度をあげてってから、デプロイをした
+* 3つアプリを作成し、完成度をあげてから、デプロイをした
 * シンプルさ
 * 使いやすさ
 * 見た目のワールド感
@@ -125,4 +122,3 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 * 投稿詳細ページで、次の投稿詳細に移動できること
 * コメントの星部分を、アクティブハッシュ使ったこと
 * ファビコンを地球にしたこと
-
