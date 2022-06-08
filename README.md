@@ -52,9 +52,6 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 # 実装した機能についての画像やGIFおよびその説明※
 
 # 投稿機能
-[![Image from Gyazo](https://i.gyazo.com/fa3684ce27adf4fb3697c59b178fa0d5.gif)](https://gyazo.com/fa3684ce27adf4fb3697c59b178fa0d5)
-
-* 入力に問題がなければ、投稿できる。
 
 [![Image from Gyazo](https://i.gyazo.com/c148be8be44769a335e66cee87720189.gif)](https://gyazo.com/c148be8be44769a335e66cee87720189)
 
@@ -80,31 +77,6 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 
 # 検索機能
 
-[![Image from Gyazo](https://i.gyazo.com/52bd01aa917ae9382b6e066808ae6482.gif)](https://gyazo.com/52bd01aa917ae9382b6e066808ae6482)
-
-* 複数投稿があること前提で、ヘッダーのキーワード検索欄にキーワードを入力し、料理の内容（料理名、作り方、食材、国名、思い出）に部分一致してるキーワードがあれば、表示される。
-
-[![Image from Gyazo](https://i.gyazo.com/7a469b2542f72331bd9b036c379df131.gif)](https://gyazo.com/7a469b2542f72331bd9b036c379df131)
-
-* 部分一致してるキーワードがなければ、「検索結果はありません」と表示される。
-
-[![Image from Gyazo](https://i.gyazo.com/e31a6b7932838ae4af34821f2baa4b76.gif)](https://gyazo.com/e31a6b7932838ae4af34821f2baa4b76)
-
-* 何も入力せずに検索をすると、投稿全てが表示される。
-
-# ユーザー詳細
-
-[![Image from Gyazo](https://i.gyazo.com/6759c05ec1507fa7c6654cdef5424993.gif)](https://gyazo.com/6759c05ec1507fa7c6654cdef5424993)
-
-* ヘッダーのユーザー名から自身の、プロフィールと投稿が見れる。
-
-[![Image from Gyazo](https://i.gyazo.com/879e649f5684d4dc8791cc521f328f78.gif)](https://gyazo.com/879e649f5684d4dc8791cc521f328f78)
-
-* 料理詳細ページの投稿者名から、投稿者のプロフィールと投稿が見れる。
-
-[![Image from Gyazo](https://i.gyazo.com/a8748770415b3dfc7fb5ce78808598bd.gif)](https://gyazo.com/a8748770415b3dfc7fb5ce78808598bd)
-
-* コメント一覧のコメント者名から、コメント者のプロフィールと投稿が見れる。
 
 # その他
 
