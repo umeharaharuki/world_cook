@@ -78,6 +78,7 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 # 検索機能
 [![Image from Gyazo](https://i.gyazo.com/b6d0b616c406abba0628f7739ac8053a.jpg)](https://gyazo.com/b6d0b616c406abba0628f7739ac8053a)
 * 
+[![Image from Gyazo](https://i.gyazo.com/95981e9701bae3a5b5fc2f5aee83d50b.gif)](https://gyazo.com/95981e9701bae3a5b5fc2f5aee83d50b)
 
 # その他
 
