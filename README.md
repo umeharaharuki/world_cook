@@ -57,7 +57,7 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 [![Image from Gyazo](https://i.gyazo.com/7e83c2434763e80839bd7ea8a5de8b05.gif)](https://gyazo.com/7e83c2434763e80839bd7ea8a5de8b05)
 * 入力に問題があった場合、コメントは保存されず、エラー分が表示される。
 # 検索機能
-[![Image from Gyazo](https://i.gyazo.com/478454e5ea5288bc308f9a605082c7e5.gif)](https://gyazo.com/478454e5ea5288bc308f9a605082c7e5)
+[![Image from Gyazo](https://i.gyazo.com/52bd01aa917ae9382b6e066808ae6482.gif)](https://gyazo.com/52bd01aa917ae9382b6e066808ae6482)
 * 複数投稿があること前提で、ヘッダーのキーワード検索欄にキーワードを入力し、料理の内容（料理名、作り方、食材、国名、思い出）に部分一致してるキーワードがあれば、表示される。
 [![Image from Gyazo](https://i.gyazo.com/7a469b2542f72331bd9b036c379df131.gif)](https://gyazo.com/7a469b2542f72331bd9b036c379df131)
 * 部分一致してるキーワードがなければ、「検索結果はありません」と表示される。
