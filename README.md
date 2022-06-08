@@ -91,6 +91,7 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 * %yarn install
 # 工夫したポイント※
 * 3つアプリを作成し、完成度をあげてってから、デプロイをした
+* シンプルさ
 * 使いやすさ
 * 見た目のワールド感
 * トップページで、投稿一覧を押すとページ内遷移すること
