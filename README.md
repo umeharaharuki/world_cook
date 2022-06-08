@@ -109,7 +109,7 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 
 # その他
 
-[![Image from Gyazo](https://i.gyazo.com/7539e6f98197cd9e581d8d30e9806565.gif)](https://gyazo.com/7539e6f98197cd9e581d8d30e9806565)
+[![Image from Gyazo](https://i.gyazo.com/704bd2fada70f757b12eaf0ca53051c4.gif)](https://gyazo.com/704bd2fada70f757b12eaf0ca53051c4)
 
 * トップページのヘッダーにある、投稿一覧を押すと、ページ内遷移をする。
 
@@ -155,4 +155,3 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 * コメントの星部分を、アクティブハッシュ使ったこと
 * ファビコンを地球にしたこと
 
-[![Image from Gyazo](https://i.gyazo.com/7539e6f98197cd9e581d8d30e9806565.gif)](https://gyazo.com/7539e6f98197cd9e581d8d30e9806565)
