@@ -52,6 +52,7 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 # 実装した機能についての画像やGIFおよびその説明※
 
 # 投稿機能
+[![Image from Gyazo](https://i.gyazo.com/d1115c5cab6269c4ce1920287bd32d8b.gif)](https://gyazo.com/d1115c5cab6269c4ce1920287bd32d8b)
 
 [![Image from Gyazo](https://i.gyazo.com/c148be8be44769a335e66cee87720189.gif)](https://gyazo.com/c148be8be44769a335e66cee87720189)
 
