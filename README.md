@@ -94,7 +94,7 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 
 # その他
 
-[![Image from Gyazo](https://i.gyazo.com/042a32d8aed4a5fe0c36fb460ebc0112.gif)](https://gyazo.com/042a32d8aed4a5fe0c36fb460ebc0112)
+![Image from Gyazo](https://i.gyazo.com/042a32d8aed4a5fe0c36fb460ebc0112.gif)
 
 * トップページのヘッダーにある、投稿一覧を押すと、ページ内遷移をする。
 
