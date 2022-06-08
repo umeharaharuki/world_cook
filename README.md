@@ -37,6 +37,7 @@ https://world-cook.herokuapp.com/
 https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfvvi4/edit?usp=sharing
 # 実装した機能についての画像やGIFおよびその説明※
 # 投稿機能
+
 [![Image from Gyazo](https://i.gyazo.com/7e132d138142a24665172595fd9685b8.gif)](https://gyazo.com/7e132d138142a24665172595fd9685b8)
 * 入力に問題がなければ、投稿される。
 
