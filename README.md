@@ -77,8 +77,11 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 
 # 検索機能
 [![Image from Gyazo](https://i.gyazo.com/b6d0b616c406abba0628f7739ac8053a.jpg)](https://gyazo.com/b6d0b616c406abba0628f7739ac8053a)
-* 
-[![Image from Gyazo](https://i.gyazo.com/95981e9701bae3a5b5fc2f5aee83d50b.gif)](https://gyazo.com/95981e9701bae3a5b5fc2f5aee83d50b)
+* ヘッダーのキーワード検索欄に、何も入力しないで検索すると、投稿が全て表示される。
+[![Image from Gyazo](https://i.gyazo.com/386b401163ec359312302429d6aad0ef.jpg)](https://gyazo.com/386b401163ec359312302429d6aad0ef)
+* 料理の内容（料理名、作り方、食材、国名、思い出）に部分一致してるキーワードがあれば、表示される。
+[![Image from Gyazo](https://i.gyazo.com/861ea1f7201dc70ec5537b2c476651cd.png)](https://gyazo.com/861ea1f7201dc70ec5537b2c476651cd)
+* 料理の内容（料理名、作り方、食材、国名、思い出）に部分一致してるキーワードがなければ、「検索結果はありません」と表示される。
 
 # その他
 
