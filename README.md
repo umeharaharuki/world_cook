@@ -107,6 +107,16 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 
 * コメント一覧のコメント者名から、コメント者のプロフィールと投稿が見れる。
 
+# その他
+
+[![Image from Gyazo](https://i.gyazo.com/704bd2fada70f757b12eaf0ca53051c4.gif)](https://gyazo.com/704bd2fada70f757b12eaf0ca53051c4)
+
+* トップページのヘッダーにある、投稿一覧を押すと、ページ内遷移をする。
+
+[![Image from Gyazo](https://i.gyazo.com/6d002673825e2e0954118424ebaf2d6c.gif)](https://gyazo.com/6d002673825e2e0954118424ebaf2d6c)
+
+* 複数投稿があること前提で、料理詳細ページにて、次の料理を押すと、次の投稿が見れる。
+
 # 実装予定の機能
 
 * ユーザーフォロー機能、プレビュー機能
