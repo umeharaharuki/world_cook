@@ -85,13 +85,16 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 [![Image from Gyazo](https://i.gyazo.com/861ea1f7201dc70ec5537b2c476651cd.png)](https://gyazo.com/861ea1f7201dc70ec5537b2c476651cd)
 * 料理の内容（料理名、作り方、食材、国名、思い出）に部分一致してるキーワードがなければ、「検索結果はありません」と表示される。
 
+# ユーザー詳細
+[![Image from Gyazo](https://i.gyazo.com/f2d75533f12e65c8ef03f480d9bb73ce.jpg)](https://gyazo.com/f2d75533f12e65c8ef03f480d9bb73ce)
+* ログインしてるユーザー名、投稿者名、コメント者名から、ユーザーの詳細が見れる。
+
 # その他
 
 [![Image from Gyazo](https://i.gyazo.com/6d002673825e2e0954118424ebaf2d6c.gif)](https://gyazo.com/6d002673825e2e0954118424ebaf2d6c)
 
 * 複数投稿があること前提で、料理詳細ページにて、次の料理を押すと、次の投稿が見れる。
 
-[![Image from Gyazo](https://i.gyazo.com/55502bce66d9bf7b897b84a50c75d3cb.gif)](https://gyazo.com/55502bce66d9bf7b897b84a50c75d3cb)
 
 # 実装予定の機能
 
