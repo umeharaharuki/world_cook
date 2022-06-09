@@ -124,6 +124,11 @@
   height: 50px;
   font-size: 14px;
   margin-bottom: 4vh;
+  transition-duration: .4s;
+}
+
+.sell-btn:hover {
+  transform: scale(1.1);
 }
 
 .back-btn {

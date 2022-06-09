@@ -234,14 +234,19 @@
 
 .form__btn {
   line-height: 48px;
-  background-color: #ffd900;
-  border: 1px solid #fff;
-  color: #fff;
+  background-color: #fff;
+  border: 2px solid #ffd900;
+  color: #ffd900;
   width: 50%;
   min-width: 150px;
   font-size: 18px;
   border-radius: 100px;
   margin-bottom: 2vh;
+}
+
+.form__btn:hover {
+  background: #ffd900;
+  color: #fff;
 }
 
 .comment-flag {
