@@ -51,7 +51,6 @@
       </div>
     </div>
   </div>
-  <%# /商品の概要 %>
 <% if user_signed_in? && current_user.id != @item.user_id %>
   <div class="comment-box">
      <%= form_with model: [@item, @comment], local: true do |f|%>

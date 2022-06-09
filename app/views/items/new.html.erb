@@ -6,11 +6,8 @@
   <div class="items-sell-main">
     <h2 class="items-sell-title">料理の情報を入力</h2>
 <%= form_with model: @item, local: true do |f| %>
-    <%# インスタンスを渡して、エラー発生時にメッセージが表示されるようにしましょう。%>
     <%= render 'shared/error_messages', model: f.object %>
-    <%# //インスタンスを渡して、エラー発生時にメッセージが表示されるようにしましょう。%>
 
-    <%# 商品画像 %>
     <div class="img-upload">
       <div class="weight-bold-text">
         料理画像🍳
@@ -23,8 +20,6 @@
         <%= f.file_field :image, id:"item-image" %>
       </div>
     </div>
-    <%# /商品画像 %>
-    <%# 商品名と商品説明 %>
     
     <div class="new-items">
       <div class="weight-bold-text">
@@ -78,7 +73,6 @@
         <a href="#">禁止されている行為</a>
         を必ずご確認ください。
       </p>
-      
       <p class="sentence">
         また、投稿をもちまして
         <a href="#">規約</a>
