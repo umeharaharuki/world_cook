@@ -7,6 +7,8 @@
   right: 32px;
   position: fixed;
   padding: 15px;
+  display: inline-block;
+  overflow: hidden;
 }
 
 .purchase-btn-text {
@@ -18,6 +20,12 @@
 }
 
 .purchase-btn-icon {
-  width: 80%;
+  width: 100%;
   height: 100px;
+  display: block;
+  transition-duration: .5s;
+}
+
+.purchase-btn-icon:hover {
+  transform: scale(1.2);
 }
