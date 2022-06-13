@@ -161,3 +161,16 @@
   font-size: 12px;
   margin: 2vw;
 }
+
+.preview-image {
+  width: 33vh;
+  height: 33vh;
+  background-size: auto;
+  border-radius: 10px;
+  transition-duration: .5s;
+}
+
+.preview-image:hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 16px -6px rgba(0,0,0,0.6);
+}

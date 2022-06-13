@@ -1,13 +1,11 @@
 <div class="items-sell-contents">
   <header class="items-sell-header">
     <%= link_to image_tag('sarasara.jpeg' , class:"second-logo"), "/" %>
-
   </header>
   <div class="items-sell-main">
     <h2 class="items-sell-title">料理の情報を入力</h2>
-<%= form_with model: @item, local: true do |f| %>
+<%= form_with model: @item, id: 'new_post', local: true do |f| %>
     <%= render 'shared/error_messages', model: f.object %>
-
     <div class="img-upload">
       <div class="weight-bold-text">
         料理画像🍳
@@ -19,8 +17,8 @@
         </p>
         <%= f.file_field :image, id:"item-image" %>
       </div>
+      <div id="previews"></div>
     </div>
-    
     <div class="new-items">
       <div class="weight-bold-text">
         料理名
@@ -63,7 +61,6 @@
 例）子供の頃にお母さんがよく作ってくれました。これを作ると故郷を思い出します。" ,rows:"7" ,maxlength:"1000" %>
       </div>
     </div>
-   
     <%# 注意書き %>
     <div class="caution">
     <p class="sentence">
@@ -88,13 +85,11 @@
     <%# /下部ボタン %>
   </div>
   <% end %>
-
   <footer class="items-sell-footer">
     <ul class="menu">
       <li><a href="#">プライバシーポリシー</a></li>
       <li><a href="#">WorldCook利用規約</a></li>
     </ul>
     <%= link_to image_tag('sara.jpeg' , class:"second-fotter-logo"), "/" %>
-    
   </footer>
 </div>
