@@ -89,6 +89,10 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 [![Image from Gyazo](https://i.gyazo.com/f2d75533f12e65c8ef03f480d9bb73ce.jpg)](https://gyazo.com/f2d75533f12e65c8ef03f480d9bb73ce)
 * ログインしてるユーザー名、投稿者名、コメント者名から、ユーザーの詳細が見れる。
 
+# プレビュー機能
+[![Image from Gyazo](https://i.gyazo.com/5fb7b3df36556966bee8290f3f8a3087.png)](https://gyazo.com/5fb7b3df36556966bee8290f3f8a3087)
+* 選択した画像が表示される。
+
 # その他
 
 [![Image from Gyazo](https://i.gyazo.com/6d002673825e2e0954118424ebaf2d6c.gif)](https://gyazo.com/6d002673825e2e0954118424ebaf2d6c)
