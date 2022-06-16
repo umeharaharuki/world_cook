@@ -5,6 +5,7 @@
       <h2 class="page-headng">
         <%= @user.nickname%>さんのプロフィール
       </h2>
+   <% if user_signed_in? && current_user.id != @user.id %>
       <div class="follow-main">
        <div class="follow-btn">
         <% if current_user.following?(@user) %>
@@ -14,6 +15,7 @@
         <% end %>
        </div>
       </div>
+    <% end %>
   <div class="follow-main">
     <div class="follow_mn">
       <div class="follow_text">
