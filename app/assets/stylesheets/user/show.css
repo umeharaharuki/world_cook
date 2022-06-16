@@ -70,3 +70,18 @@
   color: red;
   font-weight: bold;
 }
+
+.follow-btn {
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  color: #FFF;
+  transition-duration: .5s;
+  margin-left: 100px;
+  border-radius: 5px;
+}
+
+.follow-btn:hover {
+  transform: scale(1.2);
+  color: #ffd900;
+}
