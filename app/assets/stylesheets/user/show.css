@@ -114,9 +114,11 @@
   text-align: center;
   color: black;
   line-height: 25px;
+  font-weight: bold;
+  transition-duration: .5s;
 }
 
-.follow_count {
-  text-align: center;
-  color: black;
+.follow_text:hover {
+  transform: scale(1.2);
 }
+
