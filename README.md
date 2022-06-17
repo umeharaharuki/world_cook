@@ -97,6 +97,11 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 [![Image from Gyazo](https://i.gyazo.com/cbb2deeaa2dec1db53d1a526b939e9b0.gif)](https://gyazo.com/cbb2deeaa2dec1db53d1a526b939e9b0)
 * ログイン中かつ自分以外のユーザーならば、ユーザー詳細ページに「フォローする」ボタンが表示され、フォローできる。
 * フォローしてるユーザーならば、「フォロー外す」ボタンが表示され、フォローを外せる。
+[![Image from Gyazo](https://i.gyazo.com/61f76c813373f97e838b78feca9faa93.gif)](https://gyazo.com/61f76c813373f97e838b78feca9faa93)
+* ユーザー詳細ページに表示されている、フォロー中、フォロワーの数の数字をクリックすると、一覧で表示される。
+* 一覧ページでは、「フォロー中、フォロワー」の名前、フォロー中、フォロワーが表示される。また表示されているユーザーをクリックすると、ユーザーの詳細を見れる。
+[![Image from Gyazo](https://i.gyazo.com/6f6abf195c16b3f724908b4113e04172.gif)](https://gyazo.com/6f6abf195c16b3f724908b4113e04172)
+* フォロー中、フォロワーの数が0の状態で、クリックすると「ユーザーはいません」と表示される。
 
 # その他
 
