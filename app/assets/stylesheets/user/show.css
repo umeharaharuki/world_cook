@@ -70,3 +70,55 @@
   color: red;
   font-weight: bold;
 }
+
+.follow-btn {
+  height: 20px;
+  width: 85px;
+  background-color: #f64902;
+  transition-duration: .5s;
+  border-radius: 5px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.follow-btn:hover {
+  transform: scale(1.2);
+}
+
+.follow-main {
+  display: flex;
+  justify-content: center;
+}
+
+.follow {
+  color: #FFF;
+  line-height: 20px;
+}
+
+.follow:hover {
+  color: #ffd900;
+}
+
+.follow_mn {
+  height: 50px;
+  width: 300px;
+  background-color: orange;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.follow_text {
+  width: 50%;
+  text-align: center;
+  color: black;
+  line-height: 25px;
+  font-weight: bold;
+  transition-duration: .5s;
+}
+
+.follow_text:hover {
+  transform: scale(1.2);
+}
+
