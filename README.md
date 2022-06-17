@@ -93,6 +93,11 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 [![Image from Gyazo](https://i.gyazo.com/5fb7b3df36556966bee8290f3f8a3087.png)](https://gyazo.com/5fb7b3df36556966bee8290f3f8a3087)
 * 選択した画像が表示される。
 
+# フォロー機能
+[![Image from Gyazo](https://i.gyazo.com/cbb2deeaa2dec1db53d1a526b939e9b0.gif)](https://gyazo.com/cbb2deeaa2dec1db53d1a526b939e9b0)
+* ログイン中かつ自分以外のユーザーならば、ユーザー詳細ページに「フォローする」ボタンが表示され、フォローできる。
+* フォローしてるユーザーならば、「フォロー外す」ボタンが表示され、フォローを外せる。
+
 # その他
 
 [![Image from Gyazo](https://i.gyazo.com/6d002673825e2e0954118424ebaf2d6c.gif)](https://gyazo.com/6d002673825e2e0954118424ebaf2d6c)
