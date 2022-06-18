@@ -112,7 +112,7 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 
 # 実装予定の機能
 
-* ユーザーフォロー機能
+* コメント削除機能
 
 # データベース設計
 
