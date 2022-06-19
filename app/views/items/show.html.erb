@@ -78,7 +78,9 @@
             <li class="comments_list2">
              <%= simple_format(comment.content) %>
               <%= link_to comment.user.nickname, user_path(comment.user_id), class: :comment_user %>
+              <% if user_signed_in? && current_user.id == comment.user_id %>
               <%=link_to "削除", item_comment_path(comment.item.id, comment.id), method: :delete %>
+              <% end %>
             </li>
             <% end %>
             </ul>
@@ -104,6 +106,9 @@
             <li class="comments_list2">
              <%= simple_format(comment.content) %>
               <%= link_to comment.user.nickname, user_path(comment.user_id), class: :comment_user %>
+              <% if user_signed_in? && current_user.id == comment.user_id %>
+              <%=link_to "削除", item_comment_path(comment.item.id, comment.id), method: :delete %>
+              <% end %>
             </li>
             <% end %>
             </ul>
