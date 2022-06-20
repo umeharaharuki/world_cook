@@ -77,6 +77,9 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 
 * 入力に問題があった場合、コメントは保存されず、エラー分が表示される。
 
+[![Image from Gyazo](https://i.gyazo.com/8f02fc2e0fe235f954cf71a390cab301.gif)](https://gyazo.com/8f02fc2e0fe235f954cf71a390cab301)
+* ログイン中かつ自身のコメントなら削除が表示され、削除できる。
+
 # 検索機能
 [![Image from Gyazo](https://i.gyazo.com/b6d0b616c406abba0628f7739ac8053a.jpg)](https://gyazo.com/b6d0b616c406abba0628f7739ac8053a)
 * ヘッダーのキーワード検索欄に、何も入力しないで検索すると、投稿が全て表示される。
