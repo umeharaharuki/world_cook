@@ -1,0 +1,15 @@
+ja:
+  activerecord:
+    attributes:
+      user:
+        nickname: ニックネーム
+        profile: プロフィール
+      item:
+        cook_name: 料理名
+        image: 画像
+        recipe: 作り方
+        material: 食材
+        country: 国名
+      comment:
+        star_id: 星
+        content: コメント
