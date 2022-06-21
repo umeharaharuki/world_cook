@@ -3,7 +3,7 @@ class Comment < ApplicationRecord
   belongs_to :star
 
   with_options presence: true do
-    validates :star_id, numericality: { other_than: 1, message: 'is valid' }
+    validates :star_id, numericality: { other_than: 1, message: 'を選んでください' }
     validates :content
   end
 
