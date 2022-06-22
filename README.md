@@ -123,7 +123,7 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 
 # データベース設計
 
-[![Image from Gyazo](https://i.gyazo.com/95c1826a1affdf7c57c1a1fdad548ef0.png)](https://gyazo.com/95c1826a1affdf7c57c1a1fdad548ef0)
+[![Image from Gyazo](https://i.gyazo.com/23776ade74c6e73c80bc92f90e78a04a.png)](https://gyazo.com/23776ade74c6e73c80bc92f90e78a04a)
 
 # 画面遷移図
 
