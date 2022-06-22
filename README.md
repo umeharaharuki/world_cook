@@ -127,7 +127,7 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 
 # 画面遷移図
 
-[![Image from Gyazo](https://i.gyazo.com/17b00e34c3688a1c390ec935d29a53a2.png)](https://gyazo.com/17b00e34c3688a1c390ec935d29a53a2)
+[![Image from Gyazo](https://i.gyazo.com/4a636681f713385eedd5f351851d6915.png)](https://gyazo.com/4a636681f713385eedd5f351851d6915)
 
 # 開発環境
 * フロントエンド
