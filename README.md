@@ -111,11 +111,15 @@ https://docs.google.com/spreadsheets/d/1FapToaNLAtSyr5KXcRBNRXNDcWjQ-CUrHcRmJMfv
 [![Image from Gyazo](https://i.gyazo.com/6d002673825e2e0954118424ebaf2d6c.gif)](https://gyazo.com/6d002673825e2e0954118424ebaf2d6c)
 
 * 複数投稿があること前提で、料理詳細ページにて、次の料理を押すと、次の投稿が見れる。
+[![Image from Gyazo](https://i.gyazo.com/6d39183243db503a8f142712a19e65a9.png)](https://gyazo.com/6d39183243db503a8f142712a19e65a9)
+[![Image from Gyazo](https://i.gyazo.com/b71b43c853dc6e462f2a932329e688aa.png)](https://gyazo.com/b71b43c853dc6e462f2a932329e688aa)
+[![Image from Gyazo](https://i.gyazo.com/73caf505e1a7c98013e9fe0b2ec5ae25.png)](https://gyazo.com/73caf505e1a7c98013e9fe0b2ec5ae25)
+* エラー分日本語表記
 
 
 # 実装予定の機能
 
-* コメント削除機能
+* いいね機能
 
 # データベース設計
 
