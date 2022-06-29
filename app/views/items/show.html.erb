@@ -51,7 +51,7 @@
       </div>
     </div>
   </div>
-<% if user_signed_in? && current_user.id != @item.user_id %>
+ <% if user_signed_in? && current_user.id != @item.user_id %>
    <div class="comment-box">
       <%= form_with model: [@item, @comment], local: true do |f|%>
          <%= render 'shared/error_messages', model: f.object %>
