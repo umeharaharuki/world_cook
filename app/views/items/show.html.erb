@@ -52,68 +52,42 @@
     </div>
   </div>
 <% if user_signed_in? && current_user.id != @item.user_id %>
-  <div class="comment-box">
-     <%= form_with model: [@item, @comment], local: true do |f|%>
+   <div class="comment-box">
+      <%= form_with model: [@item, @comment], local: true do |f|%>
          <%= render 'shared/error_messages', model: f.object %>
-       <%= f.collection_select(:star_id, Star.all, :id, :name , {}, {class:"select-box", id:"item-category"}) %>
-       <%= f.text_area :content, id:"comment_content",class: :comment_text %>
-      <p class="comment-warn">
-        相手のことを考え丁寧なコメントを心がけましょう。
-        <br>
-        不快な言葉遣いなどは利用制限や退会処分となることがあります。
-      </p>
-      <div><%= f.submit "コメントする📝", class: :form__btn %></div>
-  </div>
+               <%= f.collection_select(:star_id, Star.all, :id, :name , {}, {class:"select-box", id:"item-category"}) %>
+               <%= f.text_area :content, id:"comment_content",class: :comment_text %>
+          <p class="comment-warn">
+               相手のことを考え丁寧なコメントを心がけましょう。
+           <br>
+               不快な言葉遣いなどは利用制限や退会処分となることがあります。
+          </p>
+        <div><%= f.submit "コメントする📝", class: :form__btn %></div>
+   </div>
+    <% end %>
   <% end %>
   <% if @comments.present? %>
   <p class="show-warn">
         コメント一覧📝
-        </p>
-  <ul class="comments_lists">
+  </p>
+       <ul class="comments_lists">
           <%# 投稿に紐づくコメントを一覧する処理を記述する %>
           <% @comments.each do |comment| %>
           <li class="comments_list">
-          <%= comment.star.name %>
-            </li>
+               <%= comment.star.name %>
+          </li>
             <li class="comments_list2">
-             <%= simple_format(comment.content) %>
-              <%= link_to comment.user.nickname, user_path(comment.user_id), class: :comment_user %>
-              <% if user_signed_in? && current_user.id == comment.user_id %>
-              <%=link_to "削除", item_comment_path(comment.item.id, comment.id), method: :delete %>
-              <% end %>
+                <%= simple_format(comment.content) %>
+                 <%= link_to comment.user.nickname, user_path(comment.user_id), class: :comment_user %>
+                  <% if user_signed_in? && current_user.id == comment.user_id %>
+                    <%=link_to "削除", item_comment_path(comment.item.id, comment.id), method: :delete %>
+                  <% end %>
             </li>
             <% end %>
-            </ul>
-            <p>コメント件数：<%= @item.comments.count %></p>
+       </ul>
+              <p>コメント件数：<%= @item.comments.count %></p>
             <% end %>
-<% else %>
-<% if @comments.present? %>
-<p class="show-warn">
-        コメント一覧📝
-      </p>
-      <% end %>
-      <% unless user_signed_in? %>
-      <p class="show-warn">
-        ログインしてコメントしよう❗️
-      </p>
-      <% end %>
-            <ul class="comments_lists">
-          <%# 投稿に紐づくコメントを一覧する処理を記述する %>
-          <% @comments.each do |comment| %>
-          <li class="comments_list">
-          <%= comment.star.name %>
-            </li>
-            <li class="comments_list2">
-             <%= simple_format(comment.content) %>
-              <%= link_to comment.user.nickname, user_path(comment.user_id), class: :comment_user %>
-              <% if user_signed_in? && current_user.id == comment.user_id %>
-              <%=link_to "削除", item_comment_path(comment.item.id, comment.id), method: :delete %>
-              <% end %>
-            </li>
-            <% end %>
-            </ul>
-            <p>コメント件数：<%= @item.comments.count %></p>
-            <% end %>
+
    <div class="links">
       <div>
          <% if @item.previous.present? %>
